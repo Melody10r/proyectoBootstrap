@@ -1,0 +1,38 @@
+:root{
+    --primary: #fd7e14;
+    --sec:#fe9131; 
+    --ter:#ffab61;
+}
+
+
+.fuente{
+    font-family: 'Merriweather', serif;
+}
+
+section p {
+    font-family: 'Verdana', Times, serif;
+}
+
+.colorFondo {
+    background-color:#ffab61;
+}
+
+.card-group{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.gap-5{
+    gap: 3rem;
+}
+
+.link-deco{
+    color: black;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.btn-bd-primary{
+    --bs-btn-bg:var(--sec)
+}
+
